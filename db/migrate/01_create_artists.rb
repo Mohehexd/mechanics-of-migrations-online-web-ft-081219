@@ -7,8 +7,3 @@ class CreateArtists < ActiveRecord::Migration[5.2]
       t.string :hometown
     end
   end
-
-def change
-  create_table :artists do |t|
-  end
-end
